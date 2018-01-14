@@ -12,7 +12,7 @@ github_repo: "https://github.com/ninesun329/ninesun329.github.io.git" # you code
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "18 up up ！！！"
-sidebar-avatar: /img/258D43B251E8176719D01D8D3F138656.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/头像1.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
