@@ -1,10 +1,10 @@
 # Site settings
-title: BY Blog
-SEOTitle: 九日的博客 | BY Blog
+title: NS Blog
+SEOTitle: 九日的博客 | NS Blog
 header-img: img/头像1.jpg
 email: tspx329@gmail.com
 description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 九日的博客, ninesun329, 张旭, 动漫"
+keyword: "NS, NS Blog, 九日的博客, ninesun329, 张旭, 动漫"
 url: "http://ninesun329.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/ninesun329/ninesun329.github.io.git" # you code repository
@@ -17,7 +17,7 @@ sidebar-avatar: /img/头像1.jpg      # use absolute URL, seeing it's used in bo
 
 
 # SNS settings
-RSS: false
+RSS: true
 # weibo_username:     九日重生
 zhihu_username:     zhang-xu-54
 github_username:    ninesun329
@@ -31,7 +31,7 @@ jianshu_username:
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 permalink: pretty
-paginate: 10
+paginate: 3
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
@@ -59,26 +59,17 @@ kramdown:
 # Disqus（https://disqus.com/）
 # disqus_username: qiubaiying
 
-# Gitalk
-gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4   #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d  #同上
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # 统计
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+#ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+#ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+#ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -100,7 +91,7 @@ service-worker: true
 friends: [
     {
         title: "A站",
-        href: "www.acfun.tv"
+        href: "http://www.acfun.tv"
     },{
         title: "",
         href: ""
